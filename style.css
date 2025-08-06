@@ -73,12 +73,20 @@ body {
   background-color: #218838;
 }
 
-/* Clear button spans all columns */
+/* Clear button spans two columns */
 .clear {
-  grid-column: span 4;
   background-color: #dc3545;
 }
 
 .clear:hover {
   background-color: #c82333;
+}
+
+/* Backspace button styling */
+.backspace {
+  background-color: #6c757d;
+}
+
+.backspace:hover {
+  background-color: #5a6268;
 }
